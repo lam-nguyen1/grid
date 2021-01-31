@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel='stylesheet' type='text/css' href='src/css/mobile.css'>
+    <link rel='stylesheet' type='text/css' media='(min-width: 960px)' href='src/css/desktop.css'>
+    <script type="text/javascript" src="src/js/shuffle.js"></script>
+    <script type="text/javascript" src="src/js/sort.js"></script>
+    <script type="text/javascript" src="src/js/dom.js"></script>
+    <script type="text/javascript" src="src/js/data.js"></script>
+  </head>
+
+  <body>
+    <header class='shuffle-sort-header'>
+      <span class='shuffle-sort-text'>Shuffle and Sort</span>
+    </header>
+
+    <div class='canvas'>
+      <div class='button-group'>
+        <button class='button shuffle' onclick="renderShuffle()">
+          <span class='button-text'>SHUFFLE</span>
+        </button>
+  
+        <button class='button sort' onclick="renderSort()">
+          <span class='button-text'>SORT</span>
+        </button>
+      </div>
+
+      <div class='grid'>
+        <div class='row border-steel-blue'>
+          <span class='number'>1</span>
+        </div>
+        
+        <div class='row border-turquoise'>
+          <span class='number'>2</span>
+        </div>
+  
+        <div class='row border-green-blue'>
+          <span class='number'>3</span>
+        </div>
+        
+        <div class='row border-turquoise'>
+          <span class='number'>4</span>
+        </div>
+  
+        <div class='row border-green-blue'>
+          <span class='number'>5</span>
+        </div>
+  
+        <div class='row border-gray'>
+          <span class='number'>6</span>
+        </div>
+  
+        <div class='row border-gray'>
+          <span class='number'>7</span>
+        </div>
+  
+        <div class='row border-steel-blue'>
+          <span class='number'>8</span>
+        </div>
+  
+        <div class='row border-green-blue'>
+          <span class='number'>9</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class='author-text'>
+      <span>Shuffle and sort by Nguyen Lam</span>
+    </footer>
+  </body>
+</html>

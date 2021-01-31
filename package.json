@@ -1,0 +1,12 @@
+{
+  "name": "grid",
+  "version": "1.0.0",
+  "description": "Alignment of elements in grid",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
